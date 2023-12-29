@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Comments System</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="comments.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+		
+	</head>
+	<body>
+
+	    <nav class="navtop">
+	    	<div>
+	    		<h1>My Life is hell</h1>
+	    	</div>
+	    </nav>
+
+		<div class="content home">
+
+			<h2>Technology </h2>
+
+			<p>Technology has revolutionized the way we live, work, and communicate. It has transformed various aspects of our 
+				daily lives, from the way we access information and entertainment to the way we interact with others. With the 
+				advent of smartphones, social media platforms, and instant messaging apps, people can now connect with each other 
+				in real-time, regardless of their location. Moreover, technology has made it possible for businesses to operate 
+				efficiently and reach a wider audience through e-commerce platforms, online marketing, and digital communication
+				tools. The healthcare industry has also benefited greatly from technological advancements, with the development of
+				 sophisticated medical equipment and devices that have improved diagnosis, treatment, and patient outcomes. 
+				 However, technology also has its drawbacks, such as the potential for addiction, social isolation, and cyber 
+				 threats. As technology continues to evolve, it is crucial that we find a balance between leveraging its benefits 
+				 and addressing its challenges.</p>
+
+			<div class="comments"></div>
+
+			<script src="comments.js"></script>
+			<script>
+			new Comments({
+					page_id: 1,
+					//comments_to_show: 15,
+					//sort_by: newest | oldest | votes,
+			});
+			</script>
+
+		</div>
+	</body>
+</html>

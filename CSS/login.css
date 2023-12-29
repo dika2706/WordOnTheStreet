@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+html{
+    background-image: url('../Images/background.png');
+    background-repeat: repeat;
+}
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+span p{
+    display: inline-block;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+a:hover{
+    color: purple;
+}
